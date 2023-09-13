@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		div {
+			border: 1px;
+			padding-top: 10px;
+			padding-right: 30px;
+			padding-bottom: 10px;
+			padding-left: 80px;
+		}
+
+		input {}
+
+		h3 {
+			color: Tomato;
+		}
+
+		p {
+			color: SlateBlue;
+			border-color: white;
+		}
+
+		.topnav {
+			overflow: hidden;
+			background-color: #1E90FF;
+			height: 70px;
+			padding: 14px 16px;
+		}
+
+		/* Style the topnav links */
+		.topnav a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change color on hover */
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.Raj {
+			font-size: 18px;
+			background-color: beige;
+			color: indianred;
+			margin: 10px;
+			border-radius: 12px;
+		}
+
+		section {
+			height: 120px;
+		}
+
+		/* NAVIGATION */
+		nav {
+			width: 80%;
+			margin: 0 auto;
+			background: #fff;
+			padding: 50px 0;
+			box-shadow: 0px 5px 0px #dedede;
+		}
+
+		/* By Dominik Biedebach @domobch */
+		nav ul {
+			list-style: none;
+			text-align: center;
+		}
+
+		nav ul li {
+			display: inline-block;
+		}
+
+		nav ul li a {
+			display: block;
+			padding: 15px;
+			text-decoration: none;
+			color: #aaa;
+			font-weight: 800;
+			text-transform: uppercase;
+			margin: 0 10px;
+		}
+
+		nav ul li a,
+		nav ul li a:after,
+		nav ul li a:before {
+			transition: all .5s;
+		}
+
+		nav ul li a:hover {
+			color: #555;
+		}
+
+		.head1 {
+			background-color: #f1f1f1;
+			padding: 20px;
+			text-align: center;
+			background-color: #fa4251;
+			border-style: solid;
+			color: white;
+		}
+
+		nav.fill ul li a {
+			position: relative;
+		}
+
+		nav.fill ul li a:after {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 0%;
+			content: '.';
+			color: transparent;
+			background: #333;
+			height: 1px;
+		}
+
+		nav.fill ul li a {
+			transition: all 2s;
+		}
+
+		/* By Dominik Biedebach @domobch */
+
+		nav.fill ul li a:after {
+			text-align: left;
+			content: '.';
+			margin: 0;
+			opacity: 0;
+		}
+
+		nav.fill ul li a:hover {
+			color: #023f1c;
+			z-index: 1;
+		}
+
+		nav.fill ul li a:hover:after {
+			z-index: -10;
+			animation: fill 1s forwards;
+			-webkit-animation: fill 1s forwards;
+			-moz-animation: fill 1s forwards;
+			opacity: 1;
+		}
+
+		footer {
+			background-color: Tomato;
+		}
+	</style>
+	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="practicecss.css">
+
+</head>
+
+<body>
+	<section>
+		<nav class="fill">
+			<ul>
+				<li><a href="Products.html">Product</a></li>
+				<li><a href="UserLogin.html.html">Login</a></li>
+				<li><a href="Partners.html"> Partners</a></li>
+				<li>
+					<form action="https://www.google.com/search">
+						<input name="q" placeholder="GOOGLE ANYTHING">
+					</form>
+				</li>
+
+
+			</ul>
+		</nav>
+	</section>
+	<div class="head1">
+		<div class="row">
+			<div class="col-sm-8">
+				<p>
+
+					<img src="menu.jpg" width="25" height="25" class="img-thumbnail" align="left">
+				<h1 class="text-danger" align="left" style="color:DarkGreen;"><strong> BASKET</strong></h1>
+
+				<h5 class="text-sucess" align="left" style="color:#f4f4f4;"><strong>I AM THE RIGHT CHOICE GO
+						AHEAD</strong></h5>
+				<input type="text" placeholder="Search 1000+ products" class="img-thumbnail" align="left">
+				<img src="shoppingcart.png" align="center" height="35" width="35 ">
+				<img src="heart.jpg" align="center" height="35" width="35 " style="margin-top:12px">
+				<h5 style="margin-left: 170px">Cart Wishlist</h5>
+
+
+
+
+				</p>
+
+
+
+			</div>
+
+
+
+		</div>
+
+
+	</div>
+
+	<div class="Raj">
+		<div>
+			<span>BASKET Commerce Private Limited,, is an Indian delivery service. We secure the items from the
+				warehouses and deliver the items to the consumer within 6 hours.</span>
+		</div>
+		<div>
+			<span>
+				BASKET Inc. Offers an Array Of Unique Products From Hundreds Of Brands, Best Deals, Huge Selection, No
+				Cost
+				EMI Available, Low Prices, Easy & Fast Delivery and Great Offers.<br><br>Although our business has
+				evolved
+				over the years, one constant is customers’ desire for lower prices, better selection, and convenient
+				services. Today, BASKET shoppers can find what they’re looking for online and in person. From delivering
+				fresh produce to their doorstep to creating and distributing movies, music, and more, we are always
+				finding new ways to delight our customers.<br><br>
+				Our passion for delighting customers drives us to constantly invent on their behalf. Working backward
+				from customer needs, we’re constantly seeking to improve our services, add benefits and features, and
+				invent new products.<br><br>
+				We operate a lot like a set of startups, embracing invention and creating stores, devices, and services
+				that our customers will use, share, and love.
+
+			</span>
+		</div>
+	</div>
+
+
+
+
+	<div class="jumbotron">
+		<div class="image-slideshow">
+			<div class="image fade">
+				<img src="groceries.jpg" alt="Mountain Top">
+			</div>
+			<div class="image fade">
+				<img src="cosmetic.jpg" alt="Palm Trees">
+			</div>
+			<div class="image fade">
+				<img src="pharmacy.jpg" alt="Neon Sign">
+			</div>
+		</div>
+		<script src="practice script.js"></script>
+
+	</div>
+	<footer>
+		<div id="footer">
+			<span> For Your Home Basket to Browse Our Basket</span>
+
+		</div>
+		<div id="follow"><span>Follow Us On: <a href="https://www.facebook.com/login/"><img class="po"
+					src="facebook.png"></a>,<a href="https://twitter.com/i/flow/login"><img class="po"
+					src="twitter.png"></a></span>
+		</div>
+		<div id="pr">
+			<span>For More Details Contact : f20220725@hyderabad.bits-pilani.ac.in</span>
+		</div>
+	</footer>
+</body>
+
+
+</html>
